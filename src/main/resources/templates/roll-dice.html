@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head :: head('Roll Dice')">
+    <meta charset="UTF-8"/>
+    <title>Roll Dice</title>
+ </head>
+<description>
+
+
+    <h1> Let's roll some Dice, and guess the number!</h1>
+
+    <a href="/roll-dice/1">One: 1</a><br />
+    <a href="/roll-dice/2">Two: 2</a><br />
+    <a href="/roll-dice/3">Three: 3</a><br />
+    <a href="/roll-dice/4">Four: 4</a><br />
+    <a href="/roll-dice/5">Five: 5</a><br />
+    <a href="/roll-dice/6">Six: 6</a><br />
+
+    <script th:replace="fragments/scripts :: scripts"></script>
+
+</description>
+
+ </html>
